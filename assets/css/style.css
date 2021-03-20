@@ -1,0 +1,148 @@
+/* div#template-img {
+  height: 8000vh;
+  background: url();
+} */
+* {
+  font-family: "Roboto", sans-serif;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+:root {
+  --candy-pink: #ffc0c8;
+  --candy-pink-2: #fc86a8;
+  --candy-dark: #354a5f;
+  --candy-blue: #dcd7eb;
+  --candy-gray: #f0cbd3;
+  --candy-white: #f8f8f8;
+  --candy-purple: #7c17a5;
+  --font-rancho: "Rancho", cursive;
+}
+body#home {
+  background: #fcecf0;
+}
+/* Utility Classes */
+.font-rancho {
+  font-family: "Rancho", cursive;
+}
+.candy-pink {
+  color: var(--candy-pink);
+}
+.candy-dark {
+  color: var(--candy-dark);
+}
+.candy-pink-2 {
+  color: var(--candy-pink-2);
+}
+.candy-blue {
+  color: var(--candy-blue);
+}
+.candy-gray {
+  color: var(--candy-gray);
+}
+.candy-purple {
+  color: var(--candy-purple);
+}
+.candy-white {
+  color: var(--candy-white);
+}
+.bg-candy-pink {
+  background: var(--candy-pink);
+}
+.bg-candy-pink-2 {
+  background: var(--candy-pink-2);
+}
+.bg-candy-dark {
+  background: var(--candy-dark);
+}
+.bg-candy-blue {
+  background: var(--candy-blue);
+}
+.bg-candy-gray {
+  background: var(--candy-gray);
+}
+.bg-candy-purple {
+  background: var(--candy-purple);
+}
+.vh100 {
+  height: 100vh;
+}
+
+/* Navbar */
+nav.navbar {
+  background: #fc86a7da;
+}
+nav.navbar div.container div.navbar-collapse {
+  flex-grow: unset;
+}
+nav.navbar div.container a.navbar-brand {
+  color: var(--candy-white);
+  font-size: 1.6rem;
+}
+nav.navbar div.container ul.navbar-nav li a {
+  color: var(--candy-white);
+  font-family: "Rancho", cursive;
+  font-size: 1.3rem;
+}
+
+/* Carousel */
+div#carousel {
+  background: var(--candy-pink);
+}
+#carousel-1 {
+  background: url(../img/carousel/carousel-1.jpeg) no-repeat center center/cover;
+  height: 100vh;
+}
+#carousel-2 {
+  background: url(../img/carousel/carousel-2.jpg) no-repeat center center/cover;
+  height: 100vh;
+}
+#carousel-3 {
+  background: url(../img/carousel/carousel-3.jpg) no-repeat center center/cover;
+  height: 100vh;
+}
+
+/* Section: Info */
+section#info div.container {
+  background: var(--candy-white);
+  border-radius: 25px 25px 0 0;
+}
+section#info div.container div p#info-text {
+  line-height: 2rem;
+  text-indent: 40px;
+}
+/* Section: Contact */
+#contact {
+  background: url(../img/contact-bg.jpg) repeat;
+  background-size: 450px;
+  width: 100%;
+  min-height: 60vh;
+}
+header#contact-header div.container div#contact-background {
+  background: url(../img/about-1.jpg) no-repeat top center/cover;
+  height: 60vh;
+}
+
+/* Footer */
+/* footer#home-footer {
+} */
+
+.portfolio-1 {
+  background: url(../img/galery-cupcake.jpg) no-repeat center center/cover;
+  width: 100%;
+  min-height: 200px;
+}
+
+/* Section: Flavors */
+body#flavors {
+  background: #fcecf0;
+}
+.offer {
+  margin-top: -50px;
+}
+#double-panel-img {
+  background: url(../img/store.jpg) center center/cover;
+  width: 100%;
+  min-height: 50vh;
+  border-radius: 15px;
+}
